@@ -1,0 +1,213 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fjalla+One&family=Prompt:wght@300&family=Rubik+Beastly&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fruktur&display=swap');
+*{
+    padding: 0;
+    margin: 0;
+    font-family: 'DM Serif Display', serif;
+    font-size: 20px;
+}
+html{
+    scroll-behavior: smooth;
+    padding: 0%;
+    margin: 0%;
+}
+body{
+    font-family: "Open Sans", Helvetica, Arial, sans-serif;
+    margin: 0;
+    padding: 0;    
+}
+
+/* navbar */
+#navbar{
+    text-align: center;
+}
+.navbar-div{
+    text-align: center;
+}
+.btn-nav{
+    background-color: inherit;
+    border: 1px solid grey;
+    color: white;
+    border-radius: 0%;
+    position: relative;
+    overflow: hidden;
+}
+.nav-item{
+    position: initial;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+
+/* homepage */
+#homepage{
+    background-image: url(images/bg-1.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 100px;
+}
+.header-1{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+    font-size: 60px;
+    margin-top: 100px;
+}
+.sub-heading{
+    color: white;
+    text-align: center;
+    margin-bottom: 100px;
+}
+
+/* three cards */
+#three-cards{
+    margin:50px;
+}
+.card-body{
+    background-color:#dededef0;
+}
+.green-btn{
+    text-align: center;
+    color: white;
+}
+.btn-green{
+    background-color: green;
+    color: white;
+}
+.btn-red{
+    background-color: red;
+    color: white;
+}
+.btn-blue{
+    background-color: blue;
+    color: white;
+}
+
+/* two-columns */
+.two-col{
+    margin-top: 50px;
+    margin-bottom: 50px;
+}
+.btn-read{
+    border: 1px solid grey;
+    color: black;
+    background-color: white;
+}
+
+/* services */
+#services{
+    background-image: url(images/bg-2.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    padding: 50px;
+}
+.header-2{
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+.service-p{
+    text-align: center;
+    color: white;
+    font-size: 20px;
+}
+
+/* 4-col */
+.four-col{
+    margin-top: 70px;
+    margin-bottom: 70px;
+}
+
+/* contact-form */
+#contact{
+    background-image: url(images/bg-3.jpg);
+    background-position: center;
+    width: 100%;
+    height: 100%;
+    background-repeat: no-repeat;
+    background-size: cover;
+    margin: 0%;
+    margin-top: 50px;
+}
+.contact-div{
+    padding: 100px;
+}
+.header{
+    text-align: center;
+    color: white;
+    font-weight: 600;
+}
+.contact-p{
+    text-align: center;
+    padding: 20px;
+    margin-bottom: 30px;
+    background-color:#ffffff80;
+}
+.contact-content h1 {
+    color: #fff;
+    text-transform: capitalize;
+    margin-bottom: 30px;
+  text-shadow: 2px 2px #333;
+}
+.contact-content p {
+    background: #ffffff80 none repeat scroll 0 0;
+    border-radius: 5px;
+    color: #000;
+    font-size: 16px;
+    margin-bottom: 20px;
+    padding: 20px 15px;
+}
+.contact-form-left { padding-left: 0; }
+.contact-form-right { padding-right: 0; }
+input {
+    margin-bottom: 15px;
+    color: #000;    
+}
+.form-control {
+    color: #000;
+  border: none;
+  background: #ffffff80;
+}
+#comment.form-control {
+
+}
+.form-group button {
+  background: #262628 none repeat scroll 0 0;
+  color: #fff;
+  margin-top: 20px;
+  padding: 10px 30px;
+  font-size: 18px;
+  border-radius:10px;
+  -webkit-transition: all 0.3s ease;
+          transition: all 0.3s ease;
+}
+
+/* footer */
+.footer-content  h1 {
+    color: #666;
+    font-size: 32px;
+    font-style: italic;
+    margin-bottom: 25px;
+    margin-top: 35px;
+}
+.footer-content  p {
+    color: #999;
+    font-style: italic;
+    margin-bottom: 30px;
+}
+.copy {
+    color: #666;
+    font-size: 12px;
+    margin-bottom: 30px;
+    margin-top: 10px;
+}
