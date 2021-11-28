@@ -217,6 +217,9 @@ input {
     .navbar{
         background-color: inherit;
     }
+    .three{
+        width: 18rem;
+    }
     /* homepage */
     .header-1{
         text-align: center;
